@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b10c713-12d7-4066-a060-51faba692f59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/Provider/AmazonTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/Provider/AmazonTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/Provider/OsmTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/Provider/OsmTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +54,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606940840359</updated>
-      <workItem from="1606940841399" duration="452000" />
+      <workItem from="1606940841399" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1393" y="366" width="600" height="580" key="find.popup" timestamp="1606941288196">
+    <state x="689" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606941319727">
       <screen x="0" y="25" width="2560" height="1360" />
     </state>
-    <state x="1393" y="366" width="600" height="580" key="find.popup/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941288196" />
+    <state x="689" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941319727" />
+    <state x="1393" y="366" width="600" height="580" key="find.popup" timestamp="1606941464462">
+      <screen x="0" y="25" width="2560" height="1360" />
+    </state>
+    <state x="1393" y="366" width="600" height="580" key="find.popup/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941464462" />
   </component>
 </project>
