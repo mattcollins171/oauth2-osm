@@ -1,6 +1,6 @@
 {
   "name": "mattcollins171/oauth2-osm",
-  "description": "Amazon OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
+  "description": "OSM OAuth 2.0 support for the PHP League's OAuth 2.0 Client",
   "license": "MIT",
   "authors": [
     {
@@ -10,7 +10,7 @@
   ],
   "keywords": [
     "php",
-    "amazon",
+    "osm",
     "api",
     "oauth",
     "oauth2",

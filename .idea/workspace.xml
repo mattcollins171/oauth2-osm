@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b10c713-12d7-4066-a060-51faba692f59" name="Default Changelist" comment="" />
+    <list default="true" id="9b10c713-12d7-4066-a060-51faba692f59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/Provider/AmazonTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/Provider/AmazonTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606940840359</updated>
-      <workItem from="1606940841399" duration="181000" />
+      <workItem from="1606940841399" duration="452000" />
     </task>
     <servers />
   </component>
@@ -40,9 +44,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="980" y="415" width="600" height="580" key="find.popup" timestamp="1606941011292">
+    <state x="1393" y="366" width="600" height="580" key="find.popup" timestamp="1606941288196">
       <screen x="0" y="25" width="2560" height="1360" />
     </state>
-    <state x="980" y="415" width="600" height="580" key="find.popup/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941011292" />
+    <state x="1393" y="366" width="600" height="580" key="find.popup/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941288196" />
   </component>
 </project>
