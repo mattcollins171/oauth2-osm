@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b10c713-12d7-4066-a060-51faba692f59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/Provider/OsmTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/Provider/OsmTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/Osm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/Osm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606940840359</updated>
-      <workItem from="1606940841399" duration="626000" />
+      <workItem from="1606940841399" duration="3030000" />
     </task>
     <servers />
   </component>
@@ -77,9 +82,10 @@
       <screen x="0" y="25" width="2560" height="1360" />
     </state>
     <state x="689" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941319727" />
-    <state x="1393" y="366" width="600" height="580" key="find.popup" timestamp="1606941464462">
-      <screen x="0" y="25" width="2560" height="1360" />
+    <state x="975" y="286" width="567" height="522" key="find.popup" timestamp="1606953704097">
+      <screen x="0" y="25" width="1792" height="1040" />
     </state>
+    <state x="975" y="286" width="567" height="522" key="find.popup/0.25.1792.1040@0.25.1792.1040" timestamp="1606953704097" />
     <state x="1393" y="366" width="600" height="580" key="find.popup/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941464462" />
   </component>
 </project>

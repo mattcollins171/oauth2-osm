@@ -53,7 +53,7 @@ class Osm extends AbstractProvider
      */
     protected function getDefaultScopes()
     {
-        return ['profile'];
+        return [];
     }
 
     /**
