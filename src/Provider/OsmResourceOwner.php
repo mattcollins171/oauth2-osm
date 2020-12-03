@@ -29,11 +29,61 @@ class OsmResourceOwner implements ResourceOwnerInterface
     /**
      * Get resource owner id
      *
-     * @return string|null
+     * @return int|null
      */
-    public function getId()
+    public function getUserId(): int
     {
         return $this->getValueByKey($this->response, 'user_id');
+    }
+
+    /**
+     * Get resource owner full name
+     *
+     * @return string|null
+     */
+    public function getFullName(): ?string
+    {
+        return $this->getValueByKey($this->response, 'full_name');
+    }
+
+    /**
+     * Get resource owner email
+     *
+     * @return string|null
+     */
+    public function getEmail(): ?string
+    {
+        return $this->getValueByKey($this->response, 'email');
+    }
+
+    /**
+     * Get resource owner profile pic
+     *
+     * @return string|null
+     */
+    public function getProfilePicture(): ?string
+    {
+        return $this->getValueByKey($this->response, 'profile_picture_url');
+    }
+
+    /**
+     * Get resource owner scopes
+     *
+     * @return array
+     */
+    public function getScopes(): ?array
+    {
+        return $this->getValueByKey($this->response, 'scopes');
+    }
+
+    /**
+     * Get resource owner sections
+     *
+     * @return array|null
+     */
+    public function getSections(): ?string
+    {
+        return $this->getValueByKey($this->response, 'sections');
     }
 
     /**
