@@ -31,9 +31,9 @@ class OsmResourceOwner implements ResourceOwnerInterface
      *
      * @return int|null
      */
-    public function getUserId(): int
+    public function getId(): int
     {
-        return $this->getValueByKey($this->response, 'user_id');
+        return $this->getValueByKey($this->response['data'], 'user_id');
     }
 
     /**
@@ -43,7 +43,7 @@ class OsmResourceOwner implements ResourceOwnerInterface
      */
     public function getFullName(): ?string
     {
-        return $this->getValueByKey($this->response, 'full_name');
+        return $this->getValueByKey($this->response['data'], 'full_name');
     }
 
     /**
@@ -53,7 +53,7 @@ class OsmResourceOwner implements ResourceOwnerInterface
      */
     public function getEmail(): ?string
     {
-        return $this->getValueByKey($this->response, 'email');
+        return $this->getValueByKey($this->response['data'], 'email');
     }
 
     /**
@@ -63,7 +63,7 @@ class OsmResourceOwner implements ResourceOwnerInterface
      */
     public function getProfilePicture(): ?string
     {
-        return $this->getValueByKey($this->response, 'profile_picture_url');
+        return $this->getValueByKey($this->response['data'], 'profile_picture_url');
     }
 
     /**
@@ -73,7 +73,7 @@ class OsmResourceOwner implements ResourceOwnerInterface
      */
     public function getScopes(): ?array
     {
-        return $this->getValueByKey($this->response, 'scopes');
+        return $this->getValueByKey($this->response['data'], 'scopes');
     }
 
     /**
@@ -83,7 +83,7 @@ class OsmResourceOwner implements ResourceOwnerInterface
      */
     public function getSections(): ?string
     {
-        return $this->getValueByKey($this->response, 'sections');
+        return $this->getValueByKey($this->response['data'], 'sections');
     }
 
     /**
