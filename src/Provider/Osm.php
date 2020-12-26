@@ -13,6 +13,11 @@ class Osm extends AbstractProvider
     use BearerAuthorizationTrait;
 
     /**
+     * @var array|null
+     */
+    public $scopes = [];
+
+    /**
      * Get authorization url to begin OAuth flow
      *
      * @return string
@@ -53,7 +58,7 @@ class Osm extends AbstractProvider
      */
     protected function getDefaultScopes()
     {
-        return [];
+        return $this->scopes;
     }
 
     /**
@@ -65,6 +70,38 @@ class Osm extends AbstractProvider
     protected function getScopeSeparator()
     {
         return ' ';
+    }
+
+    /**
+     * Returns all options that are required.
+     *
+     * @return array
+     */
+    protected function getRequiredOptions()
+    {
+        return [
+            'urlAuthorize',
+            'urlAccessToken',
+            'urlResourceOwnerDetails',
+        ];
+    }
+
+    /**
+     * Returns all options that can be configured.
+     *
+     * @return array
+     */
+    protected function getConfigurableOptions()
+    {
+        return array_merge($this->getRequiredOptions(), [
+            'accessTokenMethod',
+            'accessTokenResourceOwnerId',
+            'scopeSeparator',
+            'responseError',
+            'responseCode',
+            'responseResourceOwnerId',
+            'scopes',
+        ]);
     }
 
     /**

@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b10c713-12d7-4066-a060-51faba692f59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/Osm.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/Osm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Provider/OsmResourceOwner.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/OsmResourceOwner.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -61,6 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606940840359</updated>
       <workItem from="1606940841399" duration="5801000" />
+      <workItem from="1607368295628" duration="152000" />
+      <workItem from="1608497288379" duration="5178000" />
+      <workItem from="1609012799338" duration="2493000" />
     </task>
     <servers />
   </component>
@@ -77,16 +81,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="689" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606941319727">
       <screen x="0" y="25" width="2560" height="1360" />
     </state>
     <state x="689" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941319727" />
-    <state x="975" y="286" width="567" height="522" key="find.popup" timestamp="1606953704097">
-      <screen x="0" y="25" width="1792" height="1040" />
+    <state x="1393" y="366" width="810" height="683" key="find.popup" timestamp="1607368338760">
+      <screen x="0" y="25" width="2560" height="1360" />
     </state>
     <state x="975" y="286" width="567" height="522" key="find.popup/0.25.1792.1040@0.25.1792.1040" timestamp="1606953704097" />
+    <state x="1393" y="366" width="810" height="683" key="find.popup/0.25.2560.1360/2560.25.2560.1415/-1792.150.1792.1095@0.25.2560.1360" timestamp="1607368338760" />
     <state x="1393" y="366" width="600" height="580" key="find.popup/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1606941464462" />
+    <state x="945" y="336" width="670" height="676" key="search.everywhere.popup" timestamp="1608585397404">
+      <screen x="0" y="25" width="2560" height="1360" />
+    </state>
+    <state x="945" y="336" width="670" height="676" key="search.everywhere.popup/0.25.2560.1360/2560.25.2560.1415/-1792.150.1792.1095@0.25.2560.1360" timestamp="1607368350744" />
+    <state x="945" y="336" width="670" height="676" key="search.everywhere.popup/2560.25.2560.1415/0.25.2560.1360/-1792.150.1792.1095@0.25.2560.1360" timestamp="1608585397404" />
   </component>
 </project>

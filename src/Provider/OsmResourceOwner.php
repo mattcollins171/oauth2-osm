@@ -81,7 +81,7 @@ class OsmResourceOwner implements ResourceOwnerInterface
      *
      * @return array|null
      */
-    public function getSections(): ?string
+    public function getSections(): ?array
     {
         return $this->getValueByKey($this->response['data'], 'sections');
     }
