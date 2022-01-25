@@ -116,11 +116,9 @@ class Osm extends AbstractProvider
     {
         if (isset($data['error'])) {
             $statusCode = $response->getStatusCode();
-            $error = $data['error'];
-            $errorDescription = $data['error_description'];
-            $errorLink = (isset($data['error_uri']) ? $data['error_uri'] : false);
+            $errorDescription = $data['error']['message'];
             throw new IdentityProviderException(
-                $statusCode . ' - ' . $errorDescription . ': ' . $error . ($errorLink ? ' (see: ' . $errorLink . ')' : ''),
+                $statusCode . ' - ' . $errorDescription,
                 $response->getStatusCode(),
                 $response
             );
